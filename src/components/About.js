@@ -1,25 +1,20 @@
 import React from 'react';
-import './Skills.css';
+import './About.css';
 
-const Skills = () => {
+const About = () => {
   return (
-	<section className="skills">
-		<h3 className="title">Skills and Technologies</h3>
+	<section className="about">
+		<h3 className="title">About Me</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
 		<ul className="grid">
 			<li>
 				<i className="fa fa-camera-retro"></i>
-				<h4>Languages</h4>
+				<h4>Education</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
 			</li>
 			<li>
 				<i className="fa fa-cubes"></i>
-				<h4>Frameworks</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-			<li>
-				<i className="fa fa-newspaper-o"></i>
-				<h4>Development Tools</h4>
+				<h4>Interests</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
 			</li>
 		</ul>
@@ -27,4 +22,4 @@ const Skills = () => {
   )
 }
 
-export default Skills;
+export default About;

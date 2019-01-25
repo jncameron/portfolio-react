@@ -28,6 +28,14 @@
 	background-image: url(../assets/img/background.jpg);
 }
 
+.hero .links i {
+  padding-right: 5px;
+}
+
+.hero .links i:hover {
+  background: #666; 
+}
+
 .hero h1{
 	font: bold 60px 'Open Sans', sans-serif;
 	margin-bottom: 15px;
