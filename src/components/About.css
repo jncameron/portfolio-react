@@ -1,30 +1,60 @@
+.my-pic {
+  background-image: url(../assets/img/portrait.jpg);
+  min-height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fas {
+  margin-bottom: 10px;
+}
+
 .about{
   background-color: #eceff1;
 }
 
 .about .grid li{
 	padding: 0 30px;
-	flex-basis: 33%;
-	text-align: center;
+	flex-basis: 20%;
+  text-align: center;
+  min-width: 500px;
 }
 
 .about .grid li i{
     font-size: 50px;
     color: #1E3138;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 
 .about .grid li h4{
     font-size: 20px;
-    margin-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .about .grid li p{
     margin: 0;
 }
 
+@media (max-width: 1280px){
+  .my-pic {
+    min-height: 450px;
+    min-width: 450px;
+    background-position: center;
+  }
+
+  .about .grid li{
+    min-width: 380px;
+  }
+}
+
 @media (max-width: 1000px){
+
+  .my-pic {
+    min-height: 200px;
+    background-position: center;
+  }
 
 	.about .grid li{
 		flex-basis: 70%;

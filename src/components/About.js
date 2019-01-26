@@ -5,18 +5,21 @@ const About = () => {
   return (
 	<section className="about">
 		<h3 className="title">About Me</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
 		<ul className="grid">
-			<li>
-				<i className="fas fa-graduation-cap"></i>
-				<h4>Education</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+      <li className="my-pic">
 			</li>
 			<li>
-				<i className="fa fa-cubes"></i>
-				<h4>Interests</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
+				<i className="fas fa-info-circle"></i>				
+				<p>
+          John has spent the last two years learning everything he can about software development.
+          He's worked on some great projects and is looking for full-stack web development opportunities.
+        </p>
+				<i className="fas fa-graduation-cap"></i>				
+				<p><strong>Graduate Diploma in Information Techonology</strong></p>
+        <p>University of New England</p>
+        <p><strong>Master of Professional Accounting</strong></p>
+        <p>University of Sydney</p>
+      </li>
 		</ul>
 	</section>
   )

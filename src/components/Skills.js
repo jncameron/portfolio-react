@@ -23,7 +23,7 @@ const Skills = () => {
         </div>
 			</li>
 			<li>
-				<i className="fa fa-cubes category-icon frameworks"></i>
+				<i className="fas fa-sitemap category-icon frameworks"></i>
 				<h4>Frameworks</h4>
         <div className="frameworks-grid">
             <Progress percent={80} className="progress frameworks" active>React</Progress>  
@@ -34,7 +34,7 @@ const Skills = () => {
         </div>
 			</li>
 			<li>
-				<i className="fa fa-newspaper category-icon"></i>
+				<i className="fas fa-tools category-icon"></i>
 				<h4>Development Tools</h4>
         <div className="development-tools-grid">
             <Progress percent={90} className="progress dev-tools" active>Git</Progress>  
