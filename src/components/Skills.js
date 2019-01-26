@@ -6,7 +6,7 @@ const Skills = () => {
 
 
   return (
-	<section className="skills">
+	<section className="skills" id="skills">
     <div className="particles-wrapper">
 		<h3 className="title">Skills and Technologies</h3>
 		<ul className="grid">

@@ -1,12 +1,14 @@
 import React from 'react';
+import {Card, Image, Icon} from 'semantic-ui-react';
 import checkers from '../assets/img/checkers.png';
 import colorNotes from '../assets/img/colorNotes.png';
 import seeYouThere from '../assets/img/seeYouThere.png';
+import greatExpense from '../assets/img/greatExpense.png';
 import './Projects.css';
 
 const Projects = () => {
   return (
-    <section className="our-work">
+    <section className="our-work" id="my-projects">
       <h3 className="title">My Projects</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -16,7 +18,17 @@ const Projects = () => {
 
       <ul className="grid">
         <li className="small p1">
-          <img className="project-images" src={checkers} alt="checkers"/>
+          <Card>
+            <Image className="project-images" src={checkers} alt="checkers"/>
+            <Card.Content>
+              <Card.Header>Checkers</Card.Header>
+              <Card.Description>Play your friends online, or against the Computer</Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              VueJs Express Node MongoDB
+            </Card.Content>
+          </Card>
+
         </li>
         <li className="small p2">
           <img className="project-images" src={colorNotes} alt="colorNotes"/>
@@ -25,7 +37,7 @@ const Projects = () => {
           <img className="project-images" src={seeYouThere} alt="seeYouThere"/>
         </li>
         <li className="small p1">
-          <img className="project-images" src={checkers} alt="checkers"/>
+          <img className="project-images" src={greatExpense} alt="greatExpense"/>
         </li>
         <li className="small p2">
           <img className="project-images" src={colorNotes} alt="colorNotes"/>
