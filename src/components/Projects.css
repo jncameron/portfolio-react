@@ -1,48 +1,45 @@
 .оur-work{
-	background-color: #fff;
+  background-color: #fff;
+  width: 100vw;
+}
+
+.project-images {
+  height: auto;
+  width: 100%
 }
 
 .our-work .grid li{
-	padding: 20px;
-	height: 350px;
+  padding: 20px;
+  width: 80vw;
+  flex-basis: 32%;  
 	border-radius: 3px;
-
 	background-clip: content-box;
-	background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 	background-position: center;
-	background-color: #333;
+	background-color: #FFF;
 }
 
-.our-work .grid li.small{
-	flex-basis: 40%;
-}
+@media (max-width: 1150px){
 
-.our-work .grid li.large{
-	flex-basis: 60%;
+	.our-work .grid li{
+    flex-basis: 50%;
+    width: 40vw;
+	}
 }
-
-.p1 {
-  background-image: url(../assets/img/coast.jpg);
-}
-
-.p2 {
-  background-image: url(../assets/img/island.jpg);
-}
-
-.p3 {
-  background-image: url(../assets/img/balloon.jpg);
-}
-
-.p4 {
-  background-image: url(../assets/img/mountain.jpg);
-}
-
 
 @media (max-width: 1000px){
 
-	.our-work .grid li.small,
-	.our-work .grid li.large{
-		flex-basis: 100%;
+	.our-work .grid li{
+    flex-basis: 50%;
+    width: 100vw;
 	}
+}
 
+@media (max-width: 600px){
+
+	.our-work .grid li{
+    flex-basis: 100%;
+    width: 100vw;    
+	}
 }

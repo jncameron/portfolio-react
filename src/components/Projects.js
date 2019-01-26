@@ -1,4 +1,7 @@
 import React from 'react';
+import checkers from '../assets/img/checkers.png';
+import colorNotes from '../assets/img/colorNotes.png';
+import seeYouThere from '../assets/img/seeYouThere.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -12,10 +15,24 @@ const Projects = () => {
       </p>
 
       <ul className="grid">
-        <li className="small p1"></li>
-        <li className="large p2"></li>
-        <li className="large p3"></li>
-        <li className="small p4"></li>
+        <li className="small p1">
+          <img className="project-images" src={checkers} alt="checkers"/>
+        </li>
+        <li className="small p2">
+          <img className="project-images" src={colorNotes} alt="colorNotes"/>
+        </li>
+        <li className="small p3">
+          <img className="project-images" src={seeYouThere} alt="seeYouThere"/>
+        </li>
+        <li className="small p1">
+          <img className="project-images" src={checkers} alt="checkers"/>
+        </li>
+        <li className="small p2">
+          <img className="project-images" src={colorNotes} alt="colorNotes"/>
+        </li>
+        <li className="small p3">
+          <img className="project-images" src={seeYouThere} alt="seeYouThere"/>
+        </li>
       </ul>
     </ section>
   )
