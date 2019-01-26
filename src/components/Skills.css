@@ -1,18 +1,46 @@
 .skills{
-	background-color: #b0bec5;
+  background-color: #b0bec5;
+  
 }
+
+.ui.active.progress.languages .bar  {
+  background: #62757f;
+}
+
+.ui.active.progress.frameworks .bar  {
+  background: #4b636e;
+}
+
+.ui.active.progress.dev-tools .bar  {
+  background: #1E3138;
+}
+
 
 .skills .grid li{
 	padding: 0 30px;
 	flex-basis: 33%;
-	text-align: center;
+  text-align: center;
+  min-width: 350px;
 }
 
-.skills .grid li i{
+.category-icon{
     font-size: 50px;
-    color: #2196F3;
     margin-bottom: 25px;
 }
+
+.category-icon.languages {
+  color: #62757f;
+}
+
+.category-icon.frameworks {
+  color:#4b636e;
+}
+
+.category-icon.dev-tools {
+  color: #1E3138
+}
+
+
 
 .skills .grid li h4{
 	color: #555;
@@ -22,6 +50,18 @@
 
 .skills .grid li p{
     margin: 0;
+}
+
+@media (max-width: 1280px){
+  .skills .grid li{
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 1120px){
+  .skills .grid li{
+    min-width: 250px;
+  }
 }
 
 @media (max-width: 1000px){

@@ -3,7 +3,7 @@
 	justify-content: center;
 	min-height: 100vh;
 	color: #fff;
-  text-align: center;
+  text-align: left;
   background: rgba(27, 48, 57, 0.9);
   
 }
@@ -29,11 +29,16 @@
 }
 
 .hero .links i {
-  padding-right: 5px;
+  text-align: left;
+  padding-right: 10px;
 }
 
 .hero .links i:hover {
-  background: #666; 
+  color: #666; 
+}
+
+.hero .links i:active {
+  color: #475a62;
 }
 
 .hero h1{

@@ -8,7 +8,7 @@ const About = () => {
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
 		<ul className="grid">
 			<li>
-				<i className="fa fa-camera-retro"></i>
+				<i className="fas fa-graduation-cap"></i>
 				<h4>Education</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
 			</li>

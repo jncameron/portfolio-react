@@ -6,7 +6,7 @@ header{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: right;
 	color: #fff;
 	padding: 35px 100px 0;
 }
@@ -20,7 +20,9 @@ header nav{
 }
 
 header nav li{
-	margin: 0 15px;
+  margin: 0 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 header nav li:first-child{
