@@ -12,11 +12,6 @@ const Projects = () => {
   return (
     <section className="our-work" id="my-projects">
       <h3 className="title">My Projects</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. 
-        Sed aliquam dictum sapien, id sagittis augue malesuada eu.
-      </p>
 
       <ul className="grid">
         <li className="small p1">
