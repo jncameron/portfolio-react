@@ -1,18 +1,39 @@
 import React from 'react';
+import { Card } from 'semantic-ui-react'; 
 import './Contact.css';
 
 const Contact = () => {
   return (
     <section className="contact" id="contact">
-      <h3 className="title">Join our newsletter</h3>	
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. 
-          Sed aliquam dictum sapien, id sagittis augue malesuada eu.
-        </p>
-      <form>
-        <input type="email" placeholder="Email" />
-        <a href="#" className="btn">Subscribe now</a>
-      </form>
+      <h3 className="title">Contact John</h3>
+      <Card.Group>
+        <Card fluid color="green">
+        <Card.Content>
+          <Card.Header>Email</Card.Header>
+          <Card.Description>
+            <strong>john.n.cameron@gmail.com</strong>
+          </Card.Description>
+        </Card.Content>
+      </Card>
+
+        <Card fluid color="green">
+      <Card.Content>
+        <Card.Header>Phone</Card.Header>
+        <Card.Description>
+          <strong>0435 865 772</strong>
+        </Card.Description>
+      </Card.Content>
+    </Card>
+
+        <Card fluid color="green">
+      <Card.Content>
+        <Card.Header>Location</Card.Header>
+        <Card.Description><strong>Homebush NSW 2140</strong></Card.Description>
+      </Card.Content>
+    </Card>
+
+  </Card.Group>
+
     </section>
   )
 }

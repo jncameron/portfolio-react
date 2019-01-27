@@ -2,34 +2,22 @@
 	background-color: #eceff1;
 }
 
-.contact form{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-
-	max-width: 800px;
-	width: 80%;
+.ui.cards {
+  flex-wrap: nowrap;
 }
 
-.contact form input{
-	padding: 15px;
-	flex: 1;
-	margin-right: 30px;
-	font-size: 18px;
-	color: #555;
+.card {
+  min-width: 300px;
 }
 
-.contact form .btn{
-	padding: 18px 42px;
+@media (max-width: 1280px){
+  .card {
+    min-width: 250px;
+  }
 }
 
-
-@media (max-width: 800px){
-
-	.contact form input{
-		flex-basis: 100%;
-		margin: 0 0 20px 0;
+@media (max-width: 900px){
+	.ui.cards{
+		flex-wrap: wrap;		
 	}
-
 }

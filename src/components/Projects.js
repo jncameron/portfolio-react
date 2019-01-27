@@ -102,10 +102,46 @@ const Projects = () => {
           </Modal>
         </li>
         <li className="small p2">
-          <img className="project-images" src={faceRecogniser} alt="faceRecogniser"/>
+        <Modal trigger={<img className="project-images" src={faceRecogniser} alt="faceRecogniser"/>} closeIcon>
+            <Modal.Header className="ui center aligned">Recogniser</Modal.Header>
+            <Modal.Content image>
+              <Image wrapped  src={faceRecogniser} />
+              <Modal.Description>
+                <p>Just a bit of fun with Clarifai's face detect api. 
+                  Enter an image url, the mighty brain will find faces in the crowd
+                </p>
+                <p>Built with React, with a little help from Particles.js-React and Clarifai</p>
+                <Button primary>
+                  <a href="https://github.com/jncameron/Recogniser" target="_blank">Code</a> 
+                </Button>
+                <Button secondary>
+                <a href="https://jncameron.github.io/Recogniser/" target="_blank">Live</a> 
+                </Button>
+              </Modal.Description>
+            </Modal.Content>
+          </Modal>
         </li>
         <li className="small p3">
-          <img className="project-images" src={roboFriends} alt="roboFriends"/>
+        <Modal trigger={<img className="project-images" src={roboFriends} alt="roboFriends"/>} closeIcon>
+            <Modal.Header className="ui center aligned">RoboFriends</Modal.Header>
+            <Modal.Content image>
+              <Image wrapped  src={roboFriends} />
+              <Modal.Description>
+                <p>A great little project from Andrei Neagoie's Udemy tutorials.
+                  Everyone needs a robofriend, right? Robofriends calls a list test users from one api 
+                  and gives them random robot avatars from another.
+
+                </p>
+                <p>Built with React and a splash of Redux.</p>
+                <Button primary>
+                  <a href="https://github.com/jncameron/robofriends" target="_blank">Code</a> 
+                </Button>
+                <Button secondary>
+                <a href="https://jncameron.github.io/robofriends/" target="_blank">Live</a> 
+                </Button>
+              </Modal.Description>
+            </Modal.Content>
+          </Modal>
         </li>
       </ul>
     </ section>

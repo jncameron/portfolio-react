@@ -9,8 +9,8 @@ const Hero = () => {
       <h3>Full Stack Web Developer</h3>
 
     <ul className="links">
-      <a href="#"><i className="fab fa-github fa-2x"/></a> 
-      <a href="#"><i className="fab fa-linkedin fa-2x"/></a> 
+      <a href="https://github.com/jncameron/" target="_blank"><i className="fab fa-github fa-2x"/></a> 
+      <a href="https://www.linkedin.com/in/john-cameron-webdev/" target="_blank"><i className="fab fa-linkedin fa-2x"/></a> 
     </ul>
 
       
