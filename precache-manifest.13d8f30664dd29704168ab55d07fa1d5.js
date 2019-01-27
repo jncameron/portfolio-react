@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/john-portfolio/static/media/portrait.8cd98bea.jpg"
   },
   {
-    "revision": "6ae2abb7c8953bc99d2ae706f284ffb5",
+    "revision": "35c0d573d8e770ac708ccf41820b05a5",
     "url": "/john-portfolio/index.html"
   }
 ];
