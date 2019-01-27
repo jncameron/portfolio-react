@@ -38,8 +38,6 @@ const Projects = () => {
               </Modal.Description>
             </Modal.Content>
           </Modal>
-            
-
         </li>
         <li className="small p2">
           <Modal trigger={<img className="project-images" src={colorNotes} alt="colorNotes" />} closeIcon>
@@ -52,11 +50,12 @@ const Projects = () => {
                   React Tilt </p>
                 <p>Coming soon - I will build the backend using Node, Express and PostgreSQL, 
                   so notes can be saved and accessed later.</p>
+
                 <Button primary>
                   <a href="https://github.com/jncameron/colorNotes" target="_blank">Code</a> 
                 </Button>
                 <Button secondary>
-                <a href="https://github.com/jncameron/colorNotes" target="_blank">Live</a> 
+                <a href="https://jncameron.github.io/colorNotes/" target="_blank">Live</a> 
                 </Button>
               </Modal.Description>
             </Modal.Content>
@@ -64,10 +63,43 @@ const Projects = () => {
           
         </li>
         <li className="small p3">
-          <img className="project-images" src={seeYouThere} alt="seeYouThere"/>
+          <Modal trigger={<img className="project-images" src={seeYouThere} alt="seeYouThere"/>} closeIcon>
+            <Modal.Header className="ui center aligned">See You There</Modal.Header>
+            <Modal.Content image>
+              <Image wrapped  src={seeYouThere} />
+              <Modal.Description>
+                <p>Another major university project. See You There is an events based android application,
+                  designed to assist international students meet and find interestiing things to do.
+                </p>
+                <p>Written in Kotlin, and built with Android Studio and Firebase.</p>
+                <Button primary>
+                  <a href="https://github.com/jncameron/kotlin-app-see-you-there" target="_blank">Code</a> 
+                </Button>
+              </Modal.Description>
+            </Modal.Content>
+          </Modal>
         </li>
         <li className="small p1">
-          <img className="project-images" src={greatExpense} alt="greatExpense"/>
+        <Modal trigger={<img className="project-images" src={greatExpense} alt="greatExpense"/>} closeIcon>
+            <Modal.Header className="ui center aligned">Great Expense</Modal.Header>
+            <Modal.Content image>
+              <Image wrapped  src={greatExpense} />
+              <Modal.Description>
+                <p>A big thanks to Udemy Instructor Andrew Mead for getting me started on this one.
+                  Current functionality authenticating through Google, creating expenses, and viewing filtered
+                  and sorted lists of expenses in the dashboard.
+                </p>
+                <p>Future functionality will include an income section and other budgeting enhancements.</p>
+                <p>Built using React, Redux and Firebase for persistance.</p>
+                <Button primary>
+                  <a href="https://github.com/jncameron/greatExpense" target="_blank">Code</a> 
+                </Button>
+                <Button secondary>
+                <a href="https://great-expense.firebaseapp.com" target="_blank">Live</a> 
+                </Button>
+              </Modal.Description>
+            </Modal.Content>
+          </Modal>
         </li>
         <li className="small p2">
           <img className="project-images" src={faceRecogniser} alt="faceRecogniser"/>
