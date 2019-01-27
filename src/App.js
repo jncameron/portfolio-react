@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import About from './components/About';
 import Contact from './components/Contact';
+import Scroll from './components/Scroll';
 
 
 
@@ -15,11 +16,13 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+        <Scroll>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </Scroll>
       </div>
     );
   }
