@@ -27,8 +27,12 @@ header nav li{
   font-weight: bold;
 }
 
-.active-link {
+header nav li a:hover{
   color: yellow;
+}
+
+.active-link {
+  color: #b8cc00;
 }
 
 header nav li:first-child{

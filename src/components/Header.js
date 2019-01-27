@@ -4,7 +4,6 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 import './Header.css';
 
 
-const style = {color: "yellow"}
 const Header = () => {
   return(
     <header>
@@ -29,7 +28,7 @@ const Header = () => {
 
           to="/#skills">Skills</NavLink></li>
         <li><NavLink 
-          activeStyle={style}
+        activeClassName="active-link" 
           scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
           location={{pathname: document.location.pathname + document.location.hash}}
           to="/#my-projects">Projects</NavLink></li>

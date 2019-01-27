@@ -31,18 +31,20 @@
 .hero .links i {
   text-align: left;
   padding-right: 10px;
+  color: #666;
 }
 
 .hero .links i:hover {
-  color: #666; 
+  color: #b8cc00; 
 }
 
 .hero .links i:active {
-  color: #475a62;
+  color: yellow;
 }
 
 .hero h1{
-	font: bold 60px 'Open Sans', sans-serif;
+  font: bold 60px 'Open Sans', sans-serif;
+  color: #b8cc00;
 	margin-bottom: 15px;
 }
 
