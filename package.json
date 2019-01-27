@@ -2,7 +2,7 @@
   "name": "john-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jncameron.github.io/portfolio-react",
+  "homepage": "https://johncameron.info",
   "dependencies": {
     "history": "^4.7.2",
     "gh-pages": "^2.0.1",
