@@ -20,10 +20,10 @@ const Projects = () => {
             <Modal.Content image>
               <Image wrapped  src={checkers} />
               <Modal.Description>
-                <p>This was my major university project. Checkers allows users to authenticate, 
+                <p>This was my major university project. Checkers allows users to authenticate
                   and play against their friends or against the computer. Users can challenge any online player
-                  and chat with opponents ingame </p>
-                <p>Technologies used include VueJs, Node, Express, MongoDB, WebSocket and a whole lot of svg manipulation.</p>
+                  and chat with opponents in-game </p>
+                <p>Technologies used include VueJs, Node, Express, MongoDB, WebSocket and a whole lot of svg.</p>
                 <Button primary>
                   <a href="https://github.com/jncameron/checkers" target="_blank">Code</a> 
                 </Button>
@@ -43,7 +43,7 @@ const Projects = () => {
                 <p>A fun colorful place to organize your notes and get things done. 
                   Built on React and using some great libraries, including Semantic UI React and
                   React Tilt </p>
-                <p>Coming soon - I will build the backend using Node, Express and PostgreSQL, 
+                <p>Coming soon - A back-end using Node, Express and PostgreSQL, 
                   so notes can be saved and accessed later.</p>
 
                 <Button primary>
@@ -66,7 +66,7 @@ const Projects = () => {
                 <p>Another major university project. See You There is an events based android application,
                   designed to assist international students meet and find interestiing things to do.
                 </p>
-                <p>Written in Kotlin, and built with Android Studio and Firebase.</p>
+                <p>Written in Kotlin and built with Android Studio and Firebase.</p>
                 <Button primary>
                   <a href="https://github.com/jncameron/kotlin-app-see-you-there" target="_blank">Code</a> 
                 </Button>
@@ -81,7 +81,7 @@ const Projects = () => {
               <Image wrapped  src={greatExpense} />
               <Modal.Description>
                 <p>A big thanks to Udemy Instructor Andrew Mead for getting me started on this one.
-                  Current functionality authenticating through Google, creating expenses, and viewing filtered
+                  Current functionality allows authenticating through Google, creating expenses, and viewing filtered
                   and sorted lists of expenses in the dashboard.
                 </p>
                 <p>Future functionality will include an income section and other budgeting enhancements.</p>
@@ -123,7 +123,7 @@ const Projects = () => {
               <Image wrapped  src={roboFriends} />
               <Modal.Description>
                 <p>A great little project from Andrei Neagoie's Udemy tutorials.
-                  Everyone needs a robofriend, right? Robofriends calls a list test users from one api 
+                  Everyone needs a robofriend, right? Robofriends calls a list of test users from one api 
                   and gives them random robot avatars from another.
 
                 </p>
