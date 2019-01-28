@@ -1,7 +1,8 @@
 import React from 'react';
+import './Scroll.css';
 
 const Scroll = (props) => {
-  return<div style={{ overflowY: 'auto', border: '5px solid black', height: '100vh'}}>
+  return<div className="scrolling-app">
     {props.children}
   </div>
 }

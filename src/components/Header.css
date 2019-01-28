@@ -69,7 +69,11 @@ header nav li:last-child{
 
 @media (max-width: 500px){
 	header{
-  justify-content: space-around
+    width: 100vw;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+
 	}
 
 	header h2{
@@ -79,6 +83,5 @@ header nav li:last-child{
   header nav li{
     font-size: 0.8rem;
     font-weight: bold;
-    padding: 10px 0 10px 0;
   }
 }

@@ -1,0 +1,17 @@
+.scrolling-app{
+  overflow-y: auto;
+  border: 5px solid black;
+  height: 100vh;
+
+}
+
+
+
+
+@media (max-width: 500px){
+	.scrolling-app{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
