@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.6d767f73.chunk.css",
-  "main.js": "/static/js/main.d6928941.chunk.js",
-  "main.js.map": "/static/js/main.d6928941.chunk.js.map",
-  "static/js/1.284cc4b2.chunk.js": "/static/js/1.284cc4b2.chunk.js",
-  "static/js/1.284cc4b2.chunk.js.map": "/static/js/1.284cc4b2.chunk.js.map",
+  "main.css": "/static/css/main.94dc10a3.chunk.css",
+  "main.js": "/static/js/main.969f8dab.chunk.js",
+  "main.js.map": "/static/js/main.969f8dab.chunk.js.map",
+  "static/js/1.c7f64972.chunk.js": "/static/js/1.c7f64972.chunk.js",
+  "static/js/1.c7f64972.chunk.js.map": "/static/js/1.c7f64972.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/checkers.png": "/static/media/checkers.843a4497.png",
@@ -14,8 +14,8 @@
   "static/media/Hero.css": "/static/media/background.856df223.jpg",
   "static/media/About.css": "/static/media/portrait.8cd98bea.jpg",
   "static/media/colorNotes.png": "/static/media/colorNotes.f2085a40.png",
-  "static/css/main.6d767f73.chunk.css.map": "/static/css/main.6d767f73.chunk.css.map",
+  "static/css/main.94dc10a3.chunk.css.map": "/static/css/main.94dc10a3.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.56f4ec6c9355012d5f072e46e1a00e07.js": "/precache-manifest.56f4ec6c9355012d5f072e46e1a00e07.js",
+  "precache-manifest.17397256f5c7bea7711b708378ddfe01.js": "/precache-manifest.17397256f5c7bea7711b708378ddfe01.js",
   "service-worker.js": "/service-worker.js"
 }
