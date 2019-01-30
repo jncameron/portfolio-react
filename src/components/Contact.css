@@ -24,6 +24,10 @@
 
 @media (max-width: 700px){
 	.contact{
-		min-height: 100vh;		
-	}
+    min-height: 100vh;		
+    justify-content: center;
+  }
+  .title{
+    margin-bottom: 100px !important;
+  }
 }

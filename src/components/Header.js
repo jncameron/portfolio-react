@@ -6,13 +6,12 @@ import NavMobile from './NavMobile';
 
 
 const Header = () => {
-  return(
-    window.innerWidth > 700
-    ?
-    <NavDesktop />
-    :
-    <NavMobile />
-  )
+
+    if (window.innerWidth > 700)
+      return <NavDesktop />
+    else {
+      return <NavMobile />
+    }
 }
 
 export default Header;
