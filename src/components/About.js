@@ -11,11 +11,11 @@ const About = () => {
 			<li>
 				<i className="fas fa-info-circle"></i>				
 				<p>
-          John has spent the last two years learning everything he can about software development.
-          He's worked on some great projects and is looking for full-stack web development opportunities.
+          Hi I'm John. I've spent the last two years learning everything I can about software development.
+          I've worked on some great projects and I'm looking for challenging full-stack web development opportunities.
         </p>
 				<i className="fas fa-graduation-cap"></i>				
-				<p><strong>Graduate Diploma in Information Techonology</strong></p>
+				<p><strong>Graduate Diploma in Information Technology</strong></p>
         <p>University of New England</p>
         <p><strong>Master of Professional Accounting</strong></p>
         <p>University of Sydney</p>

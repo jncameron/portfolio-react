@@ -21,3 +21,9 @@
 		flex-wrap: wrap;		
 	}
 }
+
+@media (max-width: 700px){
+	.contact{
+		min-height: 100vh;		
+	}
+}

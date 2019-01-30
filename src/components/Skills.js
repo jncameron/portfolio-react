@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Segment, Progress } from 'semantic-ui-react';
+import { Progress } from 'semantic-ui-react';
 import './Skills.css';
 
 const Skills = () => {

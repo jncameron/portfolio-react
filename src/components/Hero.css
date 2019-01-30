@@ -59,10 +59,6 @@
 
 @media (max-width: 800px){
 
-	.hero{
-		min-height: 600px;
-	}
-
 	.hero h1{
 		font-size: 48px;
 	}
@@ -76,3 +72,4 @@
 	}
 
 }
+

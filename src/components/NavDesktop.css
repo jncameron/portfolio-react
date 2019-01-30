@@ -1,0 +1,58 @@
+header{
+  position: absolute;
+  background-color: #002029;
+  padding-bottom: 20px;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	color: #fff;
+	padding: 25px 100px 25px;
+}
+
+header h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
+header nav{
+	display: flex;
+}
+
+header nav li{
+  margin: 0 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav li a:hover{
+  color: yellow;
+}
+
+.active-link {
+  color: #b8cc00;
+}
+
+header nav li:first-child{
+	margin-left: 0;	
+}
+
+header nav li:last-child{
+	margin-right: 0;	
+}
+
+
+@media (max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+
+
+@media (max-width: 700px){
+	header{
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Image, Modal, Button} from 'semantic-ui-react';
+import {Image, Modal, Button} from 'semantic-ui-react';
 import checkers from '../assets/img/checkers.png';
 import colorNotes from '../assets/img/colorNotes.png';
 import seeYouThere from '../assets/img/seeYouThere.png';

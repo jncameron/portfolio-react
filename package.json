@@ -4,9 +4,10 @@
   "private": true,
   "homepage": "https://johncameron.info",
   "dependencies": {
-    "history": "^4.7.2",
     "gh-pages": "^2.0.1",
+    "history": "^4.7.2",
     "react": "^16.7.0",
+    "react-burger-menu": "^2.6.2",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.1",
