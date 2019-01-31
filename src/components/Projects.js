@@ -24,12 +24,18 @@ const Projects = () => {
                   and play against their friends or against the computer. Users can challenge any online player
                   and chat with opponents in-game </p>
                 <p>Technologies used include VueJs, Node, Express, MongoDB, WebSocket and a whole lot of svg.</p>
-                <Button primary>
-                  <a href="https://github.com/jncameron/checkers" target="_blank">Code</a> 
-                </Button>
-                <Button secondary>
-                <a href="http://checkers.ap-southeast-2.elasticbeanstalk.com/" target="_blank">Live Site</a> 
-                </Button>
+                <div className="buttons">
+                  <form action="https://github.com/jncameron/checkers">
+                    <Button primary>
+                      Code 
+                    </Button>
+                  </form>
+                  <form action="http://checkers.ap-southeast-2.elasticbeanstalk.com/">
+                    <Button secondary>
+                      Live
+                    </Button>
+                  </form>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>
@@ -45,13 +51,18 @@ const Projects = () => {
                   React Tilt </p>
                 <p>Coming soon - A back-end using Node, Express and PostgreSQL, 
                   so notes can be saved and accessed later.</p>
-
-                <Button primary>
-                  <a href="https://github.com/jncameron/colorNotes" target="_blank">Code</a> 
-                </Button>
-                <Button secondary>
-                <a href="https://jncameron.github.io/colorNotes/" target="_blank">Live</a> 
-                </Button>
+                  <div className="buttons">
+                  <form action="https://github.com/jncameron/colorNotes">
+                    <Button primary>
+                      Code 
+                    </Button>
+                  </form>
+                  <form action="https://jncameron.github.io/colorNotes/">
+                    <Button secondary>
+                      Live
+                    </Button>
+                  </form>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>
@@ -67,9 +78,13 @@ const Projects = () => {
                   designed to assist international students meet and find interestiing things to do.
                 </p>
                 <p>Written in Kotlin and built with Android Studio and Firebase.</p>
-                <Button primary>
-                  <a href="https://github.com/jncameron/kotlin-app-see-you-there" target="_blank">Code</a> 
-                </Button>
+                <div className="buttons">
+                  <form action="https://github.com/jncameron/kotlin-app-see-you-there">
+                    <Button primary>
+                      Code 
+                    </Button>
+                  </form>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>
@@ -86,12 +101,18 @@ const Projects = () => {
                 </p>
                 <p>Future functionality will include an income section and other budgeting enhancements.</p>
                 <p>Built using React, Redux and Firebase for persistance.</p>
-                <Button primary>
-                  <a href="https://github.com/jncameron/greatExpense" target="_blank">Code</a> 
-                </Button>
-                <Button secondary>
-                <a href="https://great-expense.firebaseapp.com" target="_blank">Live</a> 
-                </Button>
+                <div className="buttons">
+                  <form action="https://github.com/jncameron/greatExpense">
+                    <Button primary>
+                      Code 
+                    </Button>
+                  </form>
+                  <form action="https://great-expense.firebaseapp.com">
+                    <Button secondary>
+                      Live
+                    </Button>
+                  </form>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>
@@ -106,12 +127,19 @@ const Projects = () => {
                   Enter an image url, the mighty brain will find faces in the crowd
                 </p>
                 <p>Built with React, with a little help from Particles.js-React and Clarifai</p>
-                <Button primary>
-                  <a href="https://github.com/jncameron/Recogniser" target="_blank">Code</a> 
-                </Button>
-                <Button secondary>
-                <a href="https://jncameron.github.io/Recogniser/" target="_blank">Live</a> 
-                </Button>
+
+                <div className="buttons">
+                  <form action="https://github.com/jncameron/Recogniser">
+                    <Button primary>
+                      Code 
+                    </Button>
+                  </form>
+                  <form action="https://jncameron.github.io/Recogniser/">
+                    <Button secondary>
+                      Live
+                    </Button>
+                  </form>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>
@@ -128,12 +156,18 @@ const Projects = () => {
 
                 </p>
                 <p>Built with React and a splash of Redux.</p>
-                <Button primary>
-                  <a href="https://github.com/jncameron/robofriends" target="_blank">Code</a> 
-                </Button>
-                <Button secondary>
-                <a href="https://jncameron.github.io/robofriends/" target="_blank">Live</a> 
-                </Button>
+                <div className="buttons">
+                  <form action="https://github.com/jncameron/robofriends">
+                    <Button primary>
+                      Code 
+                    </Button>
+                  </form>
+                  <form action="https://jncameron.github.io/robofriends/">
+                    <Button secondary>
+                      Live
+                    </Button>
+                  </form>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>

@@ -8,6 +8,11 @@
   width: 100%
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
 .our-work .grid li{
   padding: 20px;
   width: 80vw;
