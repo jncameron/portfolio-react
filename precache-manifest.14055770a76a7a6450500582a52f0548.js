@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/seeYouThere.b80eca79.png"
   },
   {
-    "revision": "abda9348fce592c483d9",
-    "url": "/static/css/main.180105e6.chunk.css"
+    "revision": "b13769e540ca7ae552af",
+    "url": "/static/css/main.0f4f47a7.chunk.css"
   },
   {
     "revision": "55dfd3da6d9c1e120f49",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/checkers.843a4497.png"
   },
   {
-    "revision": "f2085a407f9081b47cd0bbf25dd06623",
-    "url": "/static/media/colorNotes.f2085a40.png"
+    "revision": "54826c57f9ed4bdd78655b9ff34818d0",
+    "url": "/static/media/colornotesv3.54826c57.png"
   },
   {
-    "revision": "abda9348fce592c483d9",
-    "url": "/static/js/main.abda9348.chunk.js"
+    "revision": "b13769e540ca7ae552af",
+    "url": "/static/js/main.b13769e5.chunk.js"
   },
   {
-    "revision": "67ab8d2759f28c3bfb2e802866fc97d0",
-    "url": "/static/media/greatExpense.67ab8d27.png"
+    "revision": "322c1cec0e3bde8a7b44bd83c597d70b",
+    "url": "/static/media/greatExpense.322c1cec.png"
   },
   {
     "revision": "8e35d0396e256f216bafa71d491280e1",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/portrait.8cd98bea.jpg"
   },
   {
-    "revision": "19c379de581a654d2f6cdcec98c364af",
+    "revision": "d43f7981bc1779cbc7e604430ccc37a4",
     "url": "/index.html"
   }
 ];
