@@ -38,13 +38,14 @@ const Projects = () => {
                 </p>
                 <p>
                   Backend written using Express and MongoDB. Users can log in to
-                  save and update notes.
+                  save and update notes. JWT is used to keep user logged in on
+                  refresh.
                 </p>
                 <div className="buttons">
                   <form action="https://github.com/jncameron/colorNotes">
                     <Button primary>Code</Button>
                   </form>
-                  <form action="https://jncameron.github.io/colorNotes/">
+                  <form action="http://cnapi-env-1.gdmmdmsy82.ap-southeast-2.elasticbeanstalk.com">
                     <Button secondary>Live</Button>
                   </form>
                 </div>
