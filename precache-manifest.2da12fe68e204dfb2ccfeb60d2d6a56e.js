@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "b80eca797cb7f63f6f876f3e3fedb3f6",
-    "url": "/static/media/seeYouThere.b80eca79.png"
+    "revision": "00a0cb283095ae6c27b2",
+    "url": "/static/css/main.c58b9a16.chunk.css"
   },
   {
-    "revision": "31f58f54867ecaa6f724",
-    "url": "/static/css/main.e558951d.chunk.css"
+    "revision": "00a0cb283095ae6c27b2",
+    "url": "/static/js/main.00a0cb28.chunk.js"
   },
   {
-    "revision": "55dfd3da6d9c1e120f49",
-    "url": "/static/js/1.55dfd3da.chunk.js"
+    "revision": "d601f7c6b3007ed7c4f2",
+    "url": "/static/js/1.d601f7c6.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/colornotesv3.54826c57.png"
   },
   {
-    "revision": "31f58f54867ecaa6f724",
-    "url": "/static/js/main.31f58f54.chunk.js"
+    "revision": "b80eca797cb7f63f6f876f3e3fedb3f6",
+    "url": "/static/media/seeYouThere.b80eca79.png"
   },
   {
     "revision": "322c1cec0e3bde8a7b44bd83c597d70b",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/face-recogniser.8e35d039.png"
   },
   {
-    "revision": "b2847258cc9c185ef54170fe7230782b",
-    "url": "/static/media/roboFriends.b2847258.png"
+    "revision": "256f03cc73ebf27010e13329bb337abc",
+    "url": "/static/media/places.256f03cc.png"
   },
   {
     "revision": "856df2236c56c544a51a257b0cbd2a67",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/portrait.8cd98bea.jpg"
   },
   {
-    "revision": "d9ce6fa07ac3534c526f1481c9ead7f0",
+    "revision": "777eae30d2d30ee688487256a02dd60e",
     "url": "/index.html"
   }
 ];
